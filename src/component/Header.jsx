@@ -45,13 +45,13 @@ const Header=()=>{
                 <Link to={"/"}>Home</Link>
             </Button>
             <Button onClick={onClose} colorScheme='purple' variant={"ghost"}>
-                <Link to={"/video"}>Videos</Link>
+                <Link to={"/videos"}>Videos</Link>
             </Button>
             <Button onClick={onClose} colorScheme='purple' variant={"ghost"}>
                 <Link to={"/videos?category=free"}>Free Videos</Link>
             </Button>
             <Button onClick={onClose} colorScheme='purple' variant={"ghost"}>
-                <Link to={"/upload"}>Upload Video</Link>
+                <Link to={"/uploadvideos"}>Upload Video</Link>
             </Button>
         </VStack> 
         <HStack position={"absolute"} 
@@ -61,10 +61,10 @@ const Header=()=>{
              justifyContent={"center"}
              >
         <Button onClick={onClose} colorScheme='purple'>
-                <Link to={"/login"}>Log in</Link>
+                <Link to={"/log-in"}>Log in</Link>
             </Button>
         <Button onClick={onClose} colorScheme='purple' variant={"outline"}>
-                <Link to={"/signUp"}>Sign Up</Link>
+                <Link to={"/sign-in"}>Sign Up</Link>
             </Button>
         </HStack>
          

@@ -24,11 +24,10 @@ const Videos = () => {
             width: '100%',
           }}
         ></video>
-        <VStack alignItems={'flex-start'} overflowY={'auto'} w={'full'} p={'8'}>
+        <VStack alignItems={'flex-start'} overflowY={'auto'} w={'full'} p={'3'}>
           <Heading>This is sample of video heading</Heading>
           <Text>
-            This is sample video for texting and demo of webasite that website
-            is working or not
+            This is sample video for texting and demo of webasite
           </Text>
         </VStack>
       </VStack>
@@ -44,7 +43,8 @@ const Videos = () => {
             <Button
               variant={'ghost'}
               colorScheme="purple"
-              border={'1px solid purple'}
+              border={'1px solid purple'} 
+              marginTop={"10px"}
               onClick={() => setVideos(item)}
             >
               Demo-video {index + 1}
