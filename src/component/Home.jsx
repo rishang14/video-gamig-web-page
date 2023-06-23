@@ -22,20 +22,20 @@ const headingStyles={
 const MyCarousel=()=>{
     return(
    <Carousel infiniteLoop autoPlay interval={1000} showStatus={false} showArrows={false} showThumbs={false} >
-    <Box w={'full'} h={"60vh"} zIndex={"-3"} >
+    <Box w={'full'} h={"70vh"}  >
     <Image  src={img1}  objectFit={"fit"}  h={"100%"} zIndex={"-3"}/> 
     <Heading  bgColor={"blackAlpha.600"} color={"white"} {...headingStyles}>Watch the future</Heading>
    </Box> 
      
-   <Box w={'full'} h={"60vh"} >
+   <Box w={'full'} h={"70vh"} >
     <Image  src={img2}  objectFit={"fit"}  h={"100%"}/> 
     <Heading  bgColor={"whiteAlpha.900"} color={"black"} {...headingStyles}>Future is Gaming</Heading>
     </Box>
-   <Box w={'full'} h={"60vh"} >
+   <Box w={'full'} h={"70vh"} >
     <Image  src={img3}  objectFit={"fit"}  h={"100%"} /> 
     <Heading  bgColor={"whiteAlpha.900"} color={"black"} {...headingStyles}>Gaming on console</Heading>
     </Box>
-   <Box w={'full'} h={"60vh"} >
+   <Box w={'full'} h={"70vh"} >
     <Image  src={img4} objectFit={"fit"}  h={"100%"}/> 
     <Heading  bgColor={"whiteAlpha.900"} color={"black"} {...headingStyles}> Gamers Night life is cool</Heading>
     </Box>

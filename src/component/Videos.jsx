@@ -39,7 +39,7 @@ const Videos = () => {
         overflowY={'auto'}
       >
         {videosArr.map((item, index) => {
-          return (
+          return ( 
             <Button
               variant={'ghost'}
               colorScheme="purple"
